@@ -12,7 +12,9 @@ Workflow
 5. This data is passed back to the HTTP server to return to the client as an HTTP response.
 
 Tasks
+
 Most of the server codes were already implemented in the demo template. There are only a few modifications left:
+
 1 Setup and configure a datastore. In ths case, we were recommended to make use of Redis for the database. 
 2. Edit the docker-compose.yml to add a Redis server
 3. Setup Redis client in the rpc-server
